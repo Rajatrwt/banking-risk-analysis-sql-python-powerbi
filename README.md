@@ -1,7 +1,6 @@
 # 🏦 Banking Risk Analysis – Customer Risk & Loan Exposure  
 
-Analyzing customer credit risk and loan exposure using **MySQL, Python, and Power BI**.  
-This end-to-end project connects raw banking data from a database, performs exploratory data analysis (EDA) and statistical tests in Python, and builds an interactive Power BI dashboard for decision-making.  
+Analyzing customer credit risk and loan exposure to identify high-risk customer segments and provide actionable insights using **SQL, Python, and Power BI**.  
 
 ---
 
@@ -22,8 +21,7 @@ This end-to-end project connects raw banking data from a database, performs expl
 ---
 
 ## 📌 Overview  
-This project evaluates customer risk exposure and loan dynamics to help banks understand **which customer segments are most likely to default**.  
-It follows a full analytics workflow: **data extraction (SQL) → EDA & statistics (Python) → dashboarding (Power BI).**  
+This project evaluates customer risk exposure and loan dynamics to help banks understand **which customer segments are most likely to default**. It follows a full analytics workflow: **data extraction (SQL) → EDA & hypothesis testing (Python) → dashboarding (Power BI).**  
 
 ---
 
@@ -37,14 +35,12 @@ Banks face challenges in managing **credit risk** across different customer segm
 
 ---
 
-## 🗄️ Dataset  
-- Customer demographic, loan, and transaction data extracted from **MySQL**  
-- Key attributes:  
-  - `Bank Loans`, `Credit Card Balance`, `Risk Weighting` (1–5)  
-  - `Occupation`, `Age Group`, `Income Band`, `Loyalty Classification`, `Nationality`  
-- Derived fields:  
-  - `High Risk` flag (Risk Weighting ≥ 4)  
-  - `Risk Exposure Score = (Bank Loans + Credit Balance) × Risk Weighting`  
+## 🗄️ Dataset    
+
+Data was pulled from a **MySQL database** into Python for analysis.  
+It includes customer demographics, loans, credit balances, and risk scores, with derived fields such as:  
+- **High Risk flag** (Risk Weighting ≥ 4)  
+- **Risk Exposure Score** = (Bank Loans + Credit Balance) × Risk Weighting  
 
 ---
 
@@ -61,29 +57,26 @@ Banks face challenges in managing **credit risk** across different customer segm
 banking-risk-analysis/
 │
 ├─ notebooks/
-│ └─ banking_risk_analysis.ipynb # Python analysis & EDA
+│ └─ banking_risk_analysis.ipynb           # Python analysis & EDA
 │
 ├─ dashboard/
-│ └─ Risk_Analysis_Dashboard.pbix # Power BI dashboard file
+│ └─ Risk_Analysis_Dashboard.pbix          # Power BI dashboard file
 │
 ├─ data/
-│ └─ Banking_sample.csv # Sample dataset (anonymized)
+│ └─ Banking_sample.csv                    # Sample dataset 
 │
 ├─ images/
-│ ├─ risk_overview.png # Page 1 dashboard
-│ ├─ customer_segments.png # Page 2 dashboard
-│ ├─ risk_vs_exposure.png # Python plot
-│ └─ occupation_risk.png # Python plot
+│ ├─ risk_overview.png                     # Page 1 dashboard
+│ ├─ customer_segments.png                 # Page 2 dashboard
 │
-├─ requirements.txt # Python dependencies
+├─ requirements.txt                        # Python dependencies
 └─ README.md
 ```
-yaml
-Copy code
 
 ---
 
-## 🧹 Data Cleaning & Preparation  
+## 🧹 Data Cleaning & Preparation 
+
 - Removed duplicates, invalid values (e.g., negative loans)  
 - Created **age groups** and **income bands**  
 - Encoded categorical features (occupation, nationality, loyalty tier)  
@@ -96,10 +89,11 @@ Copy code
 **Sample Visuals:**  
 
 📊 Average Loan vs Credit Card Balance by Risk Category  
-![Risk vs Exposure](images/risk_vs_exposure.png)  
+![Risk vs Exposure](images/avg_loan_vs_risk.png)  
+![Risk vs Exposure](images/avg_credit_vs_risk.png)  
 
 📊 Top 5 Occupations with Highest Average Risk  
-![Occupation Risk](images/occupation_risk.png)  
+![Occupation Risk](images/occupation_vs_risk.png)  
 
 ---
 
@@ -125,13 +119,13 @@ Copy code
 ## 📈 Dashboard  
 
 ### 🔹 Page 1: Risk Overview  
-![Risk Overview](images/risk_overview.png)  
+![Risk Overview](images/Risk Overview.png)  
 - KPIs: Total Customers, % High Risk, Avg Loan (High vs Low Risk), Avg Credit Balance  
 - Risk distribution by **weighting, age group, occupation**  
 - Loan vs Credit balance by risk  
 
 ### 🔹 Page 2: Customer Segments  
-![Customer Segments](images/customer_segments.png)  
+![Customer Segments](images/Customer Segments.png)  
 - Risk & loan breakdown by **loyalty tier**  
 - Heatmap: Loans by **Risk × Loyalty**  
 - % High-Risk Customers by **Income Band** and **Nationality**  
@@ -141,23 +135,23 @@ Copy code
 
 ## ⚙️ How to Run This Project  
 
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/<your-username>/banking-risk-analysis.git
+1. **Clone the repository:**  
+   ```
+   git clone https://github.com/yourusername/banking-risk-analysis.git
    cd banking-risk-analysis
-Install dependencies:
-
-bash
-Copy code
+ ```
+2. **Install dependencies:**  
+ ```
 pip install -r requirements.txt
-Run Jupyter Notebook:
-
-bash
-Copy code
-jupyter notebook notebooks/banking_risk_analysis.ipynb
-Open Power BI dashboard:
-
-File: dashboard/Risk_Analysis_Dashboard.pbix
+ ```
+3. **Run Jupyter Notebook:**
+ ```
+notebooks/banking_risk_analysis.ipynb
+ ```
+4. **Open Power BI dashboard:**
+```
+dashboard/Risk_Analysis_Dashboard.pbix
+```
 
 ---
 
@@ -170,7 +164,9 @@ File: dashboard/Risk_Analysis_Dashboard.pbix
 
 ---
 
-👤 Author & Contact
-👤 Rajat Rawat – Data Analyst
+👤 Author & Contact  
+
+**Rajat Rawat**  
+Data Analyst  
 📧 Email: [rajatrawatofficial98@gmail.com]
-🔗 [LinkedIn](https://www.linkedin.com/in/rajat-rawat-3791a422a/)
+🔗 [LinkedIn](https://www.linkedin.com/in/rajat-rawat-3791a422a/)   
