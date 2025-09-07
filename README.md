@@ -21,12 +21,12 @@ Analyzing customer credit risk and loan exposure to identify high-risk customer 
 ---
 
 ## 📌 Overview  
-This project evaluates customer risk exposure and loan dynamics to help banks understand **which customer segments are most likely to default**. It follows a full analytics workflow: **data extraction (SQL) → EDA & hypothesis testing (Python) → dashboarding (Power BI).**  
+This project evaluates customer risk exposure and loan dynamics to help banks understand which customer segments are most likely to default. It follows a full analytics workflow: **data extraction (SQL) → EDA & hypothesis testing (Python) → dashboarding (Power BI).**  
 
 ---
 
 ## ❓ Business Problem  
-Banks face challenges in managing **credit risk** across different customer segments. This project aims to:  
+Banks face challenges in managing credit risk across different customer segments. This project aims to:  
 - Identify which **occupations, age groups, and income bands** are most risky  
 - Compare **loans and credit card balances** across risk categories  
 - Assess risk differences across **loyalty tiers (Platinum, Gold, Silver, Jade)**  
@@ -88,11 +88,11 @@ banking-risk-analysis/
 
 **Sample Visuals:**  
 
-📊 Average Loan vs Credit Card Balance by Risk Category  
+**📊 Average Loan vs Credit Card Balance by Risk Category** 
 ![Risk vs Exposure](images/avg_loan_vs_risk.png)  
 ![Risk vs Exposure](images/avg_credit_vs_risk.png)  
 
-📊 Top 5 Occupations with Highest Average Risk  
+**📊 Top 10 Occupations with Highest Average Risk**  
 ![Occupation Risk](images/occupation_vs_risk.png)  
 
 ---
@@ -137,9 +137,9 @@ banking-risk-analysis/
 
 1. **Clone the repository:**  
    ```
-   git clone https://github.com/yourusername/banking-risk-analysis.git
-   cd banking-risk-analysis
- ```
+git clone https://github.com/yourusername/banking-risk-analysis.git
+cd banking-risk-analysis
+
 2. **Install dependencies:**  
  ```
 pip install -r requirements.txt
@@ -155,7 +155,7 @@ dashboard/Risk_Analysis_Dashboard.pbix
 
 ---
 
-✅ Final Recommendations
+## ✅ Final Recommendations
 
 - Monitor high-income and Jade tier customers closely  
 - Use risk-weighting + loan exposure for early-warning systems  
@@ -164,7 +164,7 @@ dashboard/Risk_Analysis_Dashboard.pbix
 
 ---
 
-👤 Author & Contact  
+## 👤 Author & Contact  
 
 **Rajat Rawat**  
 Data Analyst  
