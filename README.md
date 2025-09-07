@@ -119,13 +119,13 @@ banking-risk-analysis/
 ## 📈 Dashboard  
 
 ### 🔹 Page 1: Risk Overview  
-![Risk Overview](images/Risk Overview.png)  
+![Risk Overview](images/risk_overview.png)   
 - KPIs: Total Customers, % High Risk, Avg Loan (High vs Low Risk), Avg Credit Balance  
 - Risk distribution by **weighting, age group, occupation**  
 - Loan vs Credit balance by risk  
 
 ### 🔹 Page 2: Customer Segments  
-![Customer Segments](images/Customer Segments.png)  
+![Customer Segments](images/customer_segments.png)  
 - Risk & loan breakdown by **loyalty tier**  
 - Heatmap: Loans by **Risk × Loyalty**  
 - % High-Risk Customers by **Income Band** and **Nationality**  
