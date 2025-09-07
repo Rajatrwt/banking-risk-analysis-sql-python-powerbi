@@ -168,5 +168,5 @@ dashboard/Risk_Analysis_Dashboard.pbix
 
 **Rajat Rawat**  
 Data Analyst  
-📧 Email: [rajatrawatofficial98@gmail.com](mailto:rajatrawatofficial98@gmail.com)
+📧 Email: [rajatrawatofficial98@gmail.com](mailto:rajatrawatofficial98@gmail.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/rajat-rawat-3791a422a/)  
