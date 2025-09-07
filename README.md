@@ -136,10 +136,10 @@ banking-risk-analysis/
 ## ⚙️ How to Run This Project  
 
 1. **Clone the repository:**  
-   ```
+ ```
 git clone https://github.com/yourusername/banking-risk-analysis.git
 cd banking-risk-analysis
-
+ ```
 2. **Install dependencies:**  
  ```
 pip install -r requirements.txt
@@ -168,5 +168,5 @@ dashboard/Risk_Analysis_Dashboard.pbix
 
 **Rajat Rawat**  
 Data Analyst  
-📧 Email: [rajatrawatofficial98@gmail.com]
-🔗 [LinkedIn](https://www.linkedin.com/in/rajat-rawat-3791a422a/)   
+📧 Email: [rajatrawatofficial98@gmail.com](mailto:rajatrawatofficial98@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/rajat-rawat-3791a422a/)  
